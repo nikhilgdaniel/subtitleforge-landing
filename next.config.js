@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  trailingSlash: true,
+  // No output: 'export' — let Vercel serve Next.js natively (SSR/ISR)
   images: { unoptimized: true },
 }
 
